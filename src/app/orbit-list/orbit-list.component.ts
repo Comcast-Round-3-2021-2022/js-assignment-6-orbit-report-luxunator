@@ -27,4 +27,10 @@ export class OrbitListComponent implements OnInit {
 		});
 	}
 
+	isEven(satellite): boolean {
+
+		return this.satellites.indexOf(satellite) % 2 === 0
+		
+	}
+
 }
